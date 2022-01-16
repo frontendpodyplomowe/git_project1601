@@ -7,15 +7,17 @@ h1 {
     font-weight: bolder;
 }
 
-.form1 {
-    font-size: 1.5rem;
-    background-color: grey;
-    color: darkblue;
+.form1{
+    font-size: 1.5rem; 
+    background-color: lightgray;
+    color: darkslateblue;
+
 }
 
 .form1 textarea {
     width: 100%;
 }
+
 
 .choice {
     color: red;
@@ -31,8 +33,9 @@ fieldset/div/div[1]/label */
     color: red;
 } */
 
-#sendform {
-    background-color: green;
+#sendform{
+    background-color: lightgreen;
+
     font-weight: bold;
     font-size: 2rem;
     width: 120px;
