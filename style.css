@@ -4,7 +4,9 @@ color: rgb(25, 139, 177);
 background-color: rgb(196, 207, 209);
 text-align: center;
 border:rgb(1, 5, 7);
-
+text-shadow: 3px 1px 3px rgb(143, 157, 161);
+border: rgb(17, 82, 104);
+border-radius: 5px;
 
 }
 
@@ -68,4 +70,5 @@ bottom: 0%;
 width: 38%;
 height: 30px;
 padding: 10px 0px;
+border-radius: 5px;
 }
