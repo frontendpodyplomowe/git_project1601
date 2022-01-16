@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 body {
 
     font-family: 'Montserrat', sans-serif;
     padding: 30px 30%;
+    
 }
 
 h1 {
@@ -67,9 +72,13 @@ fieldset/div/div[1]/label */
     color: red;
 } */
 
+button:hover{
+    cursor: pointer;
+}
 
 #sendform{
-    background-color: lightgreen;
+    background-color: black;
+    color: white;
 
     font-weight: bold;
     font-size: 2rem;
@@ -77,18 +86,19 @@ fieldset/div/div[1]/label */
     height: 50px;
     display: block;
     margin: 0 auto;
+    transition: 1s ease;
 }
 
 #sendform:hover {
     border-radius: 10px;
-    background-color: darkolivegreen;
-    color: white;
-    border: 5px solid darkgreen;
+    background-color: white;
+    color:black;
+    border: black 3px solid;
+    cursor: pointer;
     transition: border 2s ease-in-out, background-color 3s ease-in-out, border-radius 3s ease-in;
 }
 img{
     width:100%;
-
 }
 
 footer{
