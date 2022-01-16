@@ -9,6 +9,17 @@ h1{
     font-weight: bolder;
 }
 
+
+button{
+    background-color: rgb(220, 236, 241);
+    color:blue
+    font-size: 1rem;
+    width: 160px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
 .form1{
     font-size: 1.5rem; 
     background-color: grey;
