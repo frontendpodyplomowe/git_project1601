@@ -97,6 +97,18 @@ button:hover{
     cursor: pointer;
     transition: border 2s ease-in-out, background-color 3s ease-in-out, border-radius 3s ease-in;
 }
+
+.form2 textarea{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    
+    text-decoration: violet;
+    display:inline-block;
+    font-size: 16px;
+}
 img{
     width:100%;
 }
