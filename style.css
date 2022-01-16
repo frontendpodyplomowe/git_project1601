@@ -48,7 +48,7 @@ fieldset/div/div[1]/label */
     border-radius 3s ease-in;
 }
 
-#chooselabel {
+.chooselabel {
   background-color: darkolivegreen;
   color: white;
 }
