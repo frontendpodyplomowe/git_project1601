@@ -1,26 +1,24 @@
-
 body {
-    padding: 30px 30%;
+  padding: 30px 30%;
 }
 
-
-h1{
-    font-size: 32px;
-    font-weight: bolder;
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
 }
 
-.form1{
-    font-size: 1.5rem; 
-    background-color: grey;
-    color: darkblue;
+.form1 {
+  font-size: 1.5rem;
+  background-color: grey;
+  color: darkblue;
 }
 
-.form1 textarea{
-    width: 100%;
+.form1 textarea {
+  width: 100%;
 }
 
-.choice{
-    color: red;
+.choice {
+  color: red;
 }
 
 /* na podstawie xpath full path z chrome dev tools:first-child
@@ -31,20 +29,37 @@ fieldset/div/div[1]/label */
     color: red;
 } */
 
-#sendform{
-    background-color: green;
-    font-weight: bold;
-    font-size: 2rem;
-    width: 120px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
+#sendform {
+  background-color: green;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 120px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
-#sendform:hover{
-    border-radius: 10px;
-    background-color: darkolivegreen;
-    color:white;
-    border: 5px solid darkgreen;
-    transition: border 2s ease-in-out, background-color 3s ease-in-out, border-radius 3s ease-in;
+#sendform:hover {
+  border-radius: 10px;
+  background-color: darkolivegreen;
+  color: white;
+  border: 5px solid darkgreen;
+  transition: border 2s ease-in-out, background-color 3s ease-in-out,
+    border-radius 3s ease-in;
+}
+
+fieldset div {
+  position: relative;
+  animation: animation 2s linear;
+}
+@keyframes animation {
+  0% {
+    left: -150px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
 }
