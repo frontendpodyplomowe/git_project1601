@@ -1,103 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form1 - ALK</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Form 1 - przykladowy formularz</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
+
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                Frontend ALK
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="//github.io/frontendpodyplomowe" target="_blank">GITHUB</a>
+            <a href="https://www.kozminski.edu.pl/pl" target="_blank">ALK</a>
+        </div>
+
+    </div>
+
+    <h1>Form 1 - przykladowy formularz</h1>
     <a href="https://pl.wikipedia.org/wiki/Formularz" target="_blank"> <button>Dodatkowe informacje</button> </a>
 
-
     <div class="form1">
-      <form>
-        <div>
-          <label class="description" id="title1" for="field1">
-            Podaj imię:
-          </label>
-          <input type="text" id="field1" name="field1" />
-        </div>
-        <div>
-          <label class="description" id="title2" for="field2">
-            Podaj hasło:
-          </label>
-          <input
-            type="password"
-            id="field2"
-            name="field2"
-            title="Mininum jedna cyfra i jeden znak duzy i 1 znam maly i min 6 znakow"
-            pattern=""
-          />
-          <!-- walidacja hasła po stronie FE -->
-        </div>
-        <div>
-          <label class="description" id="title3" for="field3">
-            Podaj email:
-          </label>
-          <input type="email" id="field3" name="field3" required />
-        </div>
-        <div>
-          <label class="description" id="age_label" for="age">
-            Podaj ile masz lat doswiadczenia zawodowego?:
-          </label>
-          <input
-            type="number"
-            id="age"
-            name="age1"
-            min="2"
-            max="10"
-            value="3"
-          />
-          <!-- value ustawia domyslna wartość dla pola inputy typu number -->
-        </div>
-        <div class="textarea">
-          <label class="description" id="title4" for="field4">
-            Opisz sprawę:
-          </label>
+        <form>
+            <div>
+                <label class="description" id="title1" for="field1">
+                    Podaj imię:
+                </label>
+                <input type="text" id="field1" name="field1" />
+            </div>
+            <div>
+                <label class="description" id="title2" for="field2">
+                    Podaj hasło:
+                </label>
+                <input type="password" id="field2" name="field2" title="Mininum jedna cyfra i jeden znak duzy i 1 znam maly i min 6 znakow" pattern="" />
+                <!-- walidacja hasła po stronie FE -->
+            </div>
+            <div>
+               <label class="description" id="title3" for="field3">
+                    Podaj email:
+                </label>
+                <input type="email" id="field3" name="field3" required />
+            </div>
+            <div>
+                <label class="description" id="age_label" for="age">
+                    Podaj ile masz lat doswiadczenia zawodowego?:
+                </label>
+                <input type="number" id="age" name="age1" min="2" max="10" value="3" />
+                <!-- value ustawia domyslna wartość dla pola inputy typu number -->
+            </div>
+            <div class="textarea">
+                <label class="description" id="title4" for="field4">
+                    Opisz sprawę:
+                </label>
 
-          <div>
-            <textarea
-              id="field4"
-              name="field4"
-              rows="8"
-              cols="20"
-              spellcheck="true"
-            >
+                <div>
+                    <textarea id="field4" name="field4" rows="8" cols="20" spellcheck="true">
             </textarea>
-          </div>
+                </div>
+            </div>
+          <div>
+              <label class="description" id="title9" for="field9">
+                Jaka jest Twoja ulubiona potrawa:
+              </label>
+              <input type="text" id="field9" name="field9" />
+            </div>
         </div>
-
-        <div>
+      
+      <div>
           <fieldset>
             <legend class="description" id="title5">
               Wybierz swój sport zimowy:
             </legend>
             <div>
               <div>
-                <input type="radio" id="radio_1" name="radio" value="skiing">
-                <label class="choice" id="title6_1" for="radio_1">Narciarstwo</label>
+
+                <input type="radio" id="radio_1" name="radio" value="skiing" />
+                <label class="choice" id="title6_1" for="radio_1"
+                  >Narciarstwo</label
+                >
               </div>
               <div>
-                <input type="radio" id="radio_2" name="radio" value="snowboard">
-                <label class="choice" id="title6_2" for="radio_2">Snowboard</label>
+                <input
+                  type="radio"
+                  id="radio_2"
+                  name="radio"
+                  value="snowboard"
+                />
+                <label class="choice" id="title6_2" for="radio_2"
+                  >Snowboard</label
+                >
               </div>
               <div>
-                <input type="radio" id="radio_3" name="radio" value="ski_jumping">
-                <label class="choice" id="title6_3" for="radio_3">Skoki narciarskie</label>
+                <input
+                  type="radio"
+                  id="radio_3"
+                  name="radio"
+                  value="ski_jumping"
+                />
+                <label class="choice" id="title6_3" for="radio_3"
+                  >Skoki narciarskie</label
+                >
               </div>
             </div>
-
+          </fieldset>
+        </div>
+      <div>
+          <fieldset>
+            <legend class="description" id="title5">
+              Wybierz ulubione miasto:
+            </legend>
+            <input
+              type="checkbox"
+              id="checkbox1"
+              name="checkbox1"
+              value="Warszawa"
+            />
+            <label for="checkbox1">Warszawa</label><br />
+            <input
+              type="checkbox"
+              id="checkbox2"
+              name="checkbox2"
+              value="Krakow"
+            />
+            <label for="checkbox2">Kraków</label><br />
+            <input
+              type="checkbox"
+              id="checkbox3"
+              name="checkbox3"
+              value="Poznan"
+            />
+            <label for="checkbox3">Poznań</label>
+            <input
+              type="checkbox"
+              id="checkbox4"
+              name="checkbox4"
+              value="Wroclaw"
+            />
+            <label for="checkbox4">Wrocław</label>
+            <input
+              type="checkbox"
+              id="checkbox5"
+              name="checkbox5"
+              value="Gdansk"
+            />
+            <label for="checkbox5">Gdańsk</label>
+            <input
+              type="checkbox"
+              id="checkbox6"
+              name="checkbox6"
+              value="Lublin"
+            />
+            <label for="checkbox6">Lublin</label>
+            <input
+              type="checkbox"
+              id="checkbox7"
+              name="checkbox7"
+              value="Kielce"
+            />
+            <label for="checkbox7">Kielce</label>
+            <input
+              type="checkbox"
+              id="checkbox8"
+              name="checkbox8"
+              value="Rzeszow"
+            />
+            <label for="checkbox8">Rzeszów</label>
+            <input
+              type="checkbox"
+              id="checkbox9"
+              name="checkbox9"
+              value="Radom"
+            />
+            <label for="checkbox9">Radom</label>
+            <input
+              type="checkbox"
+              id="checkbox10"
+              name="checkbox10"
+              value="Lodz"
+            />
+            <label for="checkbox10">Łodź</label>
+            <input
+              type="checkbox"
+              id="checkbox11"
+              name="checkbox11"
+              value="Szczecin"
+            />
+            <label for="checkbox11">Szczecin</label>
+            <input
+              type="checkbox"
+              id="checkbox12"
+              name="checkbox12"
+              value="Katowice"
+            />
+            <label for="checkbox12">Katowice</label>
           </fieldset>
         </div>
 
         <div>
-          <input type="submit" id="sendform" name="sendform" value="Wyślij">
+          <input type="submit" id="sendform" name="sendform" value="Wyślij" />
         </div>
-      </form>
+
+
+        </form>
+  <div>
+        <a href=index2.html>Podziękowania</a>
+      </div>
+    </div>
+    <div class="flex-center">
+      <p>
+        <iframe id="jestgit" width="300" height="200" src="https://www.youtube.com/embed/0eLG6uIxsHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
     </div>
   </body>
+</html>
+</body>
+
 </html>
