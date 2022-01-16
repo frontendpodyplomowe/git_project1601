@@ -30,7 +30,7 @@ border-radius: 5px;
 
 button{
     background-color: rgb(220, 236, 241);
-    color:blue
+    color:blue;
     font-size: 1rem;
     width: 160px;
     height: 20px;
@@ -96,6 +96,18 @@ button:hover{
     border: black 3px solid;
     cursor: pointer;
     transition: border 2s ease-in-out, background-color 3s ease-in-out, border-radius 3s ease-in;
+}
+
+.form2 textarea{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    
+    text-decoration: violet;
+    display:inline-block;
+    font-size: 16px;
 }
 img{
     width:100%;
