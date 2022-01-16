@@ -1,3 +1,12 @@
+header{
+font-size: 40px;
+color: rgb(25, 139, 177);
+background-color: rgb(196, 207, 209);
+text-align: center;
+border:rgb(1, 5, 7);
+
+
+}
 
 body {
     padding: 30px 30%;
@@ -47,4 +56,16 @@ fieldset/div/div[1]/label */
     color:white;
     border: 5px solid darkgreen;
     transition: border 2s ease-in-out, background-color 3s ease-in-out, border-radius 3s ease-in;
+}
+
+footer{
+font-size: 20px;
+color: rgb(0, 0, 0);
+background-color: rgb(196, 207, 209);
+text-align: center;
+position: absolute;
+bottom: 0%;
+width: 38%;
+height: 30px;
+padding: 10px 0px;
 }
