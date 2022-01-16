@@ -1,10 +1,8 @@
-
 body {
     padding: 30px 30%;
 }
 
-
-h1{
+h1 {
     font-size: 32px;
     font-weight: bolder;
 }
@@ -13,18 +11,22 @@ h1{
     font-size: 1.5rem; 
     background-color: lightgray;
     color: darkslateblue;
+
 }
 
-.form1 textarea{
+.form1 textarea {
     width: 100%;
 }
 
-.choice{
-    color: green;
+
+.choice {
+    color: red;
 }
+
 
 /* na podstawie xpath full path z chrome dev tools:first-child
 fieldset/div/div[1]/label */
+
 
 /* 
 .form1 fieldset div div label{
@@ -33,6 +35,7 @@ fieldset/div/div[1]/label */
 
 #sendform{
     background-color: lightgreen;
+
     font-weight: bold;
     font-size: 2rem;
     width: 120px;
@@ -41,10 +44,59 @@ fieldset/div/div[1]/label */
     margin: 0 auto;
 }
 
-#sendform:hover{
+#sendform:hover {
     border-radius: 10px;
-    background-color: lightskyblue;
-    color: darkgreen;
-    border: 5px solid blue;
+    background-color: darkolivegreen;
+    color: white;
+    border: 5px solid darkgreen;
     transition: border 2s ease-in-out, background-color 3s ease-in-out, border-radius 3s ease-in;
 }
+
+
+/* style do nawigacji bez MQ */
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.nav>.nav-links>a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+
+/* /style do nawigacji bez MQ */
