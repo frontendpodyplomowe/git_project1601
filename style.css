@@ -10,9 +10,9 @@ h1{
 }
 
 .form1{
-    font-size: 1.5rem; 
-    background-color: grey;
-    color: darkblue;
+    font-size: 1.2rem; 
+    background-color: rgb(255, 242, 227);
+    color: rgb(0, 0, 0);
 }
 
 .form1 textarea{
@@ -20,7 +20,12 @@ h1{
 }
 
 .choice{
-    color: red;
+    color: rgb(0, 0, 0);
+}
+
+.choice:hover{
+    font-size: 1.35rem;
+    color: rgb(243, 139, 20);
 }
 
 /* na podstawie xpath full path z chrome dev tools:first-child
