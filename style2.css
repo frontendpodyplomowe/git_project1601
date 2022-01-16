@@ -1,0 +1,23 @@
+body {
+    padding: 30px 30%;
+}
+
+h1{
+
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.thanks {
+color:rgb(102, 7, 7);
+
+}
+#die{
+    color:white;
+}
+
+#die:hover {
+    color: rgb(102, 7, 7);
+
+   transition: color 3 s ease-in-out;    
+}
