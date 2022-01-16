@@ -29,5 +29,3 @@ Content column 1 | Content column 2
 ### Wykorzystane technologie
 [Zobacz więcej o formularzach HTML](https://www.w3schools.com/html/html_form_attributes_form.asp)
 
-
-![ALK](https://login.kozminski.edu.pl/ALKlogo.png)
