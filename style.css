@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     padding: 30px 30%;
+    
 }
 
 
@@ -30,6 +35,10 @@ fieldset/div/div[1]/label */
 .form1 fieldset div div label{
     color: red;
 } */
+
+button:hover{
+    
+}
 
 #sendform{
     background-color: black;
